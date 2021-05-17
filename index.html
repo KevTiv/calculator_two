@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet"> 
+    </head>
+    <body id="nav_screen">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="body">
+            <div id="screen_container">
+                <div class="screen" id="screen_result">0.00</div>
+                <div class="screen" id="screen_input">0</div>
+            </div>
+            <div id="screen_to_button_padding"></div>
+            <div id="calc_buttons">
+                <div class="rows" id="first_row">
+                    <div class="calc_button_container" onclick="ac_button()">
+                        <span class=calc_button" id="AC">AC</span>
+                    </div>
+                    <div class="calc_button_container" onclick="plus_minus_button()">
+                        <span class=calc_button" id="plus_minus">+/-</span>
+                    </div>
+                    <div class="calc_button_container" onclick="percentage_button()">
+                        <span class=calc_button" id="percent">%</span>
+                    </div>
+                    <div class="calc_button_container" onclick="divide_button()">
+                        <span class=calc_button" id="divide">/</span>
+                    </div>
+                </div>
+                <div class="rows" id="second_row">
+                    <div class="calc_button_container" onclick="button_seven()">
+                        <span class=calc_button" id="seven">7</span>
+                    </div>
+                    <div class="calc_button_container" onclick="button_eight()">
+                        <span class=calc_button" id="eight">8</span>
+                    </div>
+                    <div class="calc_button_container" onclick="button_nine()">
+                        <span class=calc_button" id="nine">9</span>
+                    </div>
+                    <div class="calc_button_container" onclick="multiply_button()">
+                        <span class=calc_button" id="multiply">x</span>
+                    </div>
+                </div>
+                <div class="rows" id="third_row">
+                    <div class="calc_button_container" onclick="button_four()">
+                        <span class=calc_button" id="four">4</span>
+                    </div>
+                    <div class="calc_button_container"  onclick="button__five()">
+                        <span class=calc_button" id="five">5</span>
+                    </div>
+                    <div class="calc_button_container" onclick="button_six()">
+                        <span class=calc_button" id="six">6</span>
+                    </div>
+                    <div class="calc_button_container"  onclick="minus_button()">
+                        <span class=calc_button" id="minus">-</span>
+                    </div>
+                </div>
+                <div class="rows" id="fourth_row">
+                    <div class="calc_button_container" onclick="button_one()">
+                        <span class=calc_button" id="one">1</span>
+                    </div>
+                    <div class="calc_button_container" onclick="button_two()">
+                        <span class=calc_button" id="two">2</span>
+                    </div>
+                    <div class="calc_button_container"  onclick="button_three()">
+                        <span class=calc_button" id="three">3</span>
+                    </div>
+                    <div class="calc_button_container"  onclick="plus_button()">
+                        <span class=calc_button" id="plus">+</span>
+                    </div>
+                </div>
+                <div class="rows" id="fifth_row">
+                    <div id="zero_container" class="calc_button_container"  onclick="button_zero()">
+                        <span class=calc_button" id="zero">0</span>
+                    </div>
+                    <div class="calc_button_container"  onclick="button_dot()">
+                        <span class=calc_button" id="dot">.</span>
+                    </div>
+                    <div class="calc_button_container" onclick="equal_button()">
+                        <span class=calc_button" id="equal">=</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="calculator.js" async defer></script>
+    </body>
+</html>

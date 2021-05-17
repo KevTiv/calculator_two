@@ -1,0 +1,84 @@
+#nav_screen{
+    background-color: rgba(8, 25, 27, 1);
+}
+#body{
+    /* position: absolute;
+    width: 40vw;
+    height: var(width) vh; */
+    display: inline-block;
+    position: relative;
+   // border: 15px solid rgba(79, 78, 81, 1);
+    border: 15px solid rgba(85, 117, 123, 1);
+    border-radius: 15px;
+    top: 5vh;
+    left: 10vw;
+    background-color: rgba(8, 25, 27, 1);
+    box-shadow: 5px 5px 9px 10px rgba(28, 65, 77, 1);
+
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+/* @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } } */
+
+.screen{
+    height: 70px;
+    width: auto;
+    max-width: 246px;
+    border: 5px rgba(79, 78, 81, 1);
+    //background-color: rgba(85, 117, 123, 1);
+    background-color: rgba(75, 125, 143, 1);
+    padding-right: 10px;
+    font-size: calc(3vh);
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgba(230, 230, 230, 1);
+    overflow-x: hidden;
+    
+}
+#scren_result{
+    border-bottom: 5px solid rgba(85, 115, 123, 1);
+}
+#screen_to_button_padding{
+    height: 10px;
+    //background-color: rgba(79, 78, 81, 1);
+    background-color:  rgba(85, 115, 123, 1);
+}
+#calc_buttons{
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+.rows{
+    display: flex;
+}
+.calc_button_container{
+    height: calc(#body{height});
+    width: auto;
+    /* border-radius: 10px; */
+    padding: 15px;
+    height: 30px;
+    width: 30px;
+    //border: 2px solid rgba(79, 78, 81, 1);
+    border: 2px solid rgba(85, 115, 123, 1);
+}
+#zero_container{
+    width: 36.8%;
+}
+.calc_button_container{
+    background-color: rgba(24, 60, 67, 1);
+    display: flex;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    color: rgba(189, 102, 59, 1);
+    font-family: 'Orbitron', sans-serif;
+}
+.calc_button_container:hover{
+    opacity: 0.6;
+}
+
